@@ -46,3 +46,20 @@ function onEntry(entry) {
   for (let elm of elements) {
     observer.observe(elm);
   }
+
+  let oH1 = document.querySelector('#countdown');
+let nSec = 10;
+
+function fCountdown() {
+  oH1.textContent = (nSec < 10 ? '0' + nSec : nSec);
+  if (!nSec) {
+    clearInterval(tCountdown);
+    setTimeout(() => {
+      nSec = 10;
+      tCountdown = setInterval(fCountdown, 1000);
+    }, 5000);
+  }
+  nSec--;
+}
+
+let tCountdown = setInterval(fCountdown, 1000);
