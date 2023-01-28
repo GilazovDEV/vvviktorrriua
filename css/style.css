@@ -5,7 +5,7 @@ body {
 
 /* background image */
 .bck-img {
-  background: url("/pict/22.jpg") center no-repeat;
+  background: url("../pict/22.jpg") center no-repeat;
   width: 100%;
   background-size: cover;
   height: 100vh;
@@ -41,7 +41,7 @@ body {
 }
 
 .navbar-toggler-icon {
-  background-image: url('/pict/menu.png');
+  background-image: url('../pict/menu.png');
   border: none;
   box-shadow: none;
 }
