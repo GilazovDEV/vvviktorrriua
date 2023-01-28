@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@vvviktorrriua - Проект</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-md" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#"><span>Название</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html"><span>Главная</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="navlink" class="nav-link" href="#project">Проекты</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="navlink1" class="nav-link" href="#news">Новости</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="navlink2" class="nav-link" href="#footer">Связаться</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="modal-width">
+                <div class="modal-body">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="pict/kazan.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="pict/moscow.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="pict/spb.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Назад</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Далее</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container project-cont">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="name-project">
+                    <p class="city-project">Казань</p>
+                    <p class="project-modal-text">НАЗВАНИЕ ПРОЕКТА 1</p>
+                    <p class="date-project">16 / 06 / 2023</p>
+                    <a class="a-project" href="/index.html">Вернуться</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="name-project">
+                    <p class="about-project">Это текст. Нажмите один раз и выберите «Редактировать текст» или просто
+                        кликните дважды, чтобы добавить свой текст и настроить шрифт.
+                        Вы можете переместить его в любое место на странице.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="footer-links">
+                    <a class="footer-link" href="">ВКонтакте</a>
+                    <a class="footer-link" href="">Instagram</a>
+                    <a class="footer-link" href="">Telegram</a>
+                </div>
+            </div>
+            <div class="dev">
+                <p class="dev-link">Made with &#128420; <a class="dev-links" href="https://t.me/gilazwebsite">GilazovDEV</a></p>
+            </div>
+        </div>
+    </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
